@@ -52,7 +52,7 @@ export default function Books() {
     <div style={{margin:'30px'}}>
       {/* 2. 使用获取接口的操作 */}
       <button onClick={getBook}>获取数据库的goods集合书籍信息getBook</button>
-      <button onClick={addBook}>添加新书addBook</button>
+      <button onClick={addBook}>添加新书addBook--添加</button>
       <button onClick={getBookByname}>通过书名查找这本书getBookByname</button>
       <button onClick={deleteBook}>通过_id删除书deleteBook</button>
 
